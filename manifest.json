@@ -1,6 +1,6 @@
 {
-    "name": "Global New Tab Shortcut",
-    "version": "1.2",
+    "name": "Global Tab Management Shortcuts",
+    "version": "0.9",
     "manifest_version": 2,
     "icons": {
         "128": "new-tab.png"
@@ -13,18 +13,16 @@
     ],
     "commands": {
         "new-tab": {
-            "suggested_key": {
-                "default": "Alt+G",
-                "mac": "Command+Shift+S",
-                "linux": "Alt+G"
-            },
-            "description": "Switch to a new tab from any application, ready for searching!"
+            "description": "New tab"
         },
-        "new-window": {
-            "description": "Switch to a new window from any application, ready for searching!"
+        "next-tab": {
+            "description": "Next tab"
         },
-        "new-incognito-window": {
-            "description": "Switch to a new *incognito* window from any application, ready for searching! To use this, you need to check the \"Allow in incognito\" checkbox of the extension."
+        "prev-tab": {
+            "description": "Prev tab"
+        },
+        "close-tab": {
+            "description": "Close tab"
         }
     }
 }
