@@ -12,6 +12,9 @@
         "tabs"
     ],
     "commands": {
+        "new-window": {
+            "description": "New window"
+        },
         "new-tab": {
             "description": "New tab"
         },

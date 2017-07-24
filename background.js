@@ -46,4 +46,10 @@ chrome.commands.onCommand.addListener(function(command) {
   else if (command === 'prev-tab') {
     selectTab('previous');
   }
+  else if (command === 'new-window') {
+    // Simply passing focused doesn't seem to work so try harder
+    chrome.windows.create({focused: true}, function(win){
+      chrome.windows.update(win.id, {focused: true});
+    });
+  }
 });
