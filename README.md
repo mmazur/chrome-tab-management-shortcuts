@@ -1,10 +1,8 @@
-global-chrome-tab
+chrome-tab-management-shortcuts
 =================
 
-Chrome extension for opening a new tab or window with a global shortcut.
+Want your own keyboard shortcuts for managing tabs in chrome? Use this.
 
-This is very handy, as evidenced by the fact that Chromebooks have a dedicated Search button.
+Note: this won't work in incognito mode unless you tick the "Allow in incognito" checkbox.
 
-To use, install the extension and in the keyboard shortcuts section at the bottom, set a shortcut for the new tab or new window action and make it Global.
-
-If you use incognito window, you need to check "Allow in incognito" checkbox of the extension.
+_Icon lifted from material.io._
